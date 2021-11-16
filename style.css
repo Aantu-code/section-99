@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.section-padding {
+  padding: 80px 0;
+}
+
+.section-border span {
+  height: 5px;
+  background-color: #6b9611;
+  width: 50px;
+
+  display: inline-block;
+}
+.section-border span.black-border {
+  width: 30px;
+  height: 5px;
+  background-color: #000000;
+  margin: 0 10px;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.owl-carousel .owl-dots {
+  text-align: center;
+}
+.owl-carousel .owl-dots button {
+  height: 5px;
+  width: 30px;
+  background: #6b9611;
+  display: inline-block;
+  margin: 8px;
+  transition: 0.2s ease;
+}
+.owl-carousel .owl-dots .owl-dot.active {
+  width: 40px;
+  background: #000;
+}
+.single-testimoniel-carosul {
+  box-shadow: 0 0 2px #0000006e !important;
+  margin: 2px;
+  padding: 20px;
+  position: relative;
+  padding-left: 90px;
+  margin-bottom: 40px;
+}
+.single-testimoniel-carosul h3 {
+  font-size: 20px;
+  font-weight: bold;
+  font-size: 22px;
+}
+.single-testimoniel-carosul h3 span {
+  display: block;
+  font-weight: 500;
+}
+.single-testimoniel-carosul p,
+span {
+  font-size: 16px;
+  color: rgb(136, 131, 131);
+}
+.single-testimoniel-carosul::before {
+  position: absolute;
+  font-family: fontAwesome;
+  content: "";
+  left: 25px;
+  top: 50%;
+  line-height: 30px;
+  margin-top: -15px;
+  color: #6b9611;
+}
+.single-testimoniel-carosul::after {
+  position: absolute;
+  content: "";
+  height: 70%;
+  background: #00000036;
+  width: 1px;
+  top: 30px;
+  left: 70px;
+}
